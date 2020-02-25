@@ -41,9 +41,9 @@ Third Step: draw the detected lines in original image
 At last, I used the two result image and draw the final line as below:
 
 1. white line tested result:
-<img src="output/white_successed.png" width="480" alt="white tested" />
+<img src="https://github.com/haloworld-C/Uda-Finding-Lane-lines/blob/master/output/white_successed.PNG" width="480" alt="white tested" />
 2. yellow line tested result:
-<img src="output/yellow_successed.png" width="480" alt="yellow tested" />
+<img src="https://github.com/haloworld-C/Uda-Finding-Lane-lines/blob/master/output/yellow_successed.PNG" width="480" alt="yellow tested" />
 
 Ater I tested all test images provided by tuning parameters, I tested the vedios, it seems that the vedio is much difficult. I have to re-tuning the parameter and revise the defined region mask. 
 
@@ -61,7 +61,7 @@ My feedback:
 
     1. encoutered the line shape as below. I fixed this by limiting the k scale(< 0.1)
    
-<img src="./output/yellow_issue.png" width="480" alt="yellow issue" />
+<img src="https://github.com/haloworld-C/Uda-Finding-Lane-lines/blob/master/output/yellow_issue.PNG" width="480" alt="yellow issue" />
     2. When tested the challenge video, I found the distraction of moving cars is a big issue. I improve the performance with narrowing the region mask. 
 
 
